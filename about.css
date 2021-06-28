@@ -56,6 +56,10 @@ h3 {
 	padding:9px;
 }
 
+.padding-spacer {
+  padding-bottom: 10%;
+}
+
 .p-our-story {
 	padding-left: 25%;
 	padding-right: 25%;
@@ -80,7 +84,7 @@ h3 {
 .p-heading {
 	/*padding-left: 25%;
 	padding-right: 25%;*/
-	padding: 7% 25% 10% 25%;
+	padding: 0% 25% 10% 25%;
 	color: #015D53;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
@@ -89,6 +93,7 @@ h3 {
 
 .text-heading {
   font-family: 'Poppins', sans-serif;
+  margin-left: 25%;
 }
 
 /* Footer */
@@ -166,4 +171,33 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+
+@media only screen and (max-width: 426px) {
+  .ptext {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+    .p-our-story {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+    col-lg-6, col-md-6, col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .links {
+    font-size: small;
+  }
+
+  .p-heading {
+    padding: 0% 10% 10% 17%;
+  }
+/*  .text-heading {
+    margin-left: 0;
+    text-align: center;
+  }*/
 }
