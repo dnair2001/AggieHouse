@@ -1,28 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggie House</title> 
 
-  <title>Contact Us</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
-      <!--Font Awesome -->
-  <script src="https://kit.fontawesome.com/c5bcc9d8d3.js" crossorigin="anonymous"></script>
 
-  <!-- Google Fonts -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+          <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/c5bcc9d8d3.js" crossorigin="anonymous"></script>
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="contactUs.css">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="contactUs.css" rel="stylesheet">
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
 
 <!-- Nav Bar -->
@@ -59,57 +61,57 @@
         </div>
       </nav>
 
-    <section class="contact-header">
-	  	<h1 class="header-style" style="text-align: center;">GET IN TOUCH</h1>
-	  	<p style="margin-bottom: 0;text-align: center; font-family:">If you have any questions about getting involved with Aggie House, please use </br> the 
-	  	form below to send us a message. </p>
-	</section>
-  <div class="form">
+    <form style="padding-left: 15%; padding-right: 15%; padding-top: 7%; padding-bottom: 7%; background-color: #EFF1F3">
+      <section class="contact-header">
+        <h1 class="header-style" style="text-align: center;">GET IN TOUCH</h1>
+        <p class="header-sub">If you have any questions about getting involved with Aggie House, please use the form below to send us a message. </p>
+      </section>
 
-	<form name="message" method="post">
-	 <section class="padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">First Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John">
+            </div>
+          </div>
 
-		  <div style="float:left;margin-right:80px;">
-		    <label for="first-name">First Name</label>
-		    <input id="first-name" type="text" value="" name="first-name" style="width: 350px;">
-		  </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Last Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+            </div>
+          </div>
+        </div>
+      </div>
 
-		  <div style="float:left;">
-		    <label for="last-name">Last Name</label>
-		    <input id="last-name" type="text" value="" name="last-name" style="width: 350px;">
-		  </div>
+            <div class="form-group" style="padding-left: 15px; padding-right: 15px;">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
 
-		  <br style="clear:both;" />
+            <div class="form-group" style="padding-left: 15px; padding-right: 15px;">
+              <label for="exampleFormControlInput1">Subject</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
 
-	  </section>
+            <div class="form-group" style="padding-left: 15px; padding-right: 15px;">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
 
-	  <section class="padding">
+            <div style="padding-left: 15px;">
+              <input class="submit-btn" type="submit" value="Submit">
+            </div>
+          </form>
 
-	    <label for="email">Email Address</label>
-	    <input id="email" type="text" value="" name="email" style="width: 785px;">
-	  </section>
+  <section id="social-media">
+    <p class="social-heading">Let's Stay </br> Connected!</p>
+    <img src="images/ig_large.svg" alt="ig">
+    <img src="images/fb_large.svg" alt="fb">
+  </section>
 
-	  <section class="padding">
-	    <label for="subject">Subject</label>
-	    <input id="subject" type="text" value="" name="subject" style="width: 785px;">
-
-	  </section>
-
-	  <label for="message">Message</label>
-		<textarea id="message" name="message" rows="4" cols="107"></textarea>
-		<br><br>
-		<input class="submit-btn" type="submit" value="Submit">
-	</form>
-  </div>
-
-	<section id="social-media">
-		<p style="font-size: 30px; font-weight: bold; padding-top: 2%;">Let's Stay </br> Connected!</p>
-		<img src="images/ig_large.svg" alt="ig">
-		<img src="images/fb_large.svg" alt="fb">
-	</section>
-</body>
-
-<!--Footer -->
+  <!--Footer -->
     <section id="footer">
     <div class="container">
       <div class="row text-center text-xs-center text-sm-left text-md-left">
@@ -144,4 +146,7 @@
       </div>
   </section>
   <!-- ./Footer -->
-</html>
+
+  <script src="script.js"></script>
+</body>
+<html>
