@@ -27,10 +27,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/* header{
-    margin: 150px; 
-    margin-top: 50px; 
-} */
+header{
+    padding: 10%;
+}
 
 h2{
     font-size: 18px; 
@@ -189,6 +188,7 @@ button span:nth-child(4) {
 }
 #news{
     background-color: var(--light);
+    padding: 10%;
 }
 #news a {
     margin-left: 150px; 
@@ -262,6 +262,7 @@ h4{
 
 #mission{
     background-color: var(--dark); 
+    padding: 10%;
 }
 
 #mission .left{
@@ -303,6 +304,7 @@ h4{
 }
 #team{
     background-color: var(--ad_accent_two);  
+    padding: 12%;
 }
 
 #team img{ 
@@ -326,6 +328,11 @@ h4{
     margin-right: 200px; 
     margin-bottom: 30px; 
 }
+
+#get-involved {
+    padding: 10%;
+}
+
 #get-involved h3{
     color: var(--darker); 
     text-align: left;
