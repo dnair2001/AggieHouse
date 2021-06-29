@@ -2,10 +2,19 @@ body{
     margin: 0; 
 }
 
+.container-fluid {
+  background-color: #F5FAFF;
+}
+
+.col-lg-6, .col-md-6, .col-sm-12 {
+  padding-right: 0;
+  padding-top: 5px;
+}
+
 /* Navigation Bar */
 .navbar {
   /*padding: 0 0 4.5rem;*/
-  padding: 1.5% 7%;
+  padding: 0.5% 7%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -43,6 +52,13 @@ h1{
     padding-top: 5%;
     text-align: center;
 }
+
+.left-style {
+  padding-top: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 .flex-container .left p{
     font-size: 18px; 
     color: var(--dark); 
@@ -53,18 +69,31 @@ h1{
 }
 
 h2{
-    margin-top: 70px; 
     text-transform: uppercase; 
     color: var(--dark); 
-    margin-left: 150px; font-size: 18px;  
+    font-size: 18px;  
+}
+
+#top-heading {
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+#bottom-heading {
+  padding-bottom: 10%;
 }
 
 .h3-heading{
     color: black; 
     font-weight: normal; 
-    font-size: 30px; 
-    margin-left: 150px; 
+    padding-left: 7%;
+    padding-bottom: 1%;
+}
 
+.p-text {
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-bottom: 10px;
 }
 
 p{
@@ -88,6 +117,8 @@ img{
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
+  display: block;
+  margin: auto;
 }
 
 /* button {
@@ -231,4 +262,38 @@ section .section-title {
   font-weight: bold;
   font-size: 1.4rem;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-lg-6, .col-md-6, .col-sm-12 {
+    padding-right: 15px;
+    padding-top: 3%;
+  }
+
+  .h3-heading {
+    padding-left: 4%;
+    padding-top: 3%;
+  }
+
+  .p-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .left-style {
+    text-align: center;
+    padding-bottom: 4%;
+  }  
+
+  .h3-heading {
+    padding-left: 3%;
+  }
+
+  .p-text {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
 }

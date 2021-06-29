@@ -11,7 +11,7 @@
 /* Navigation Bar */
 .navbar {
   /*padding: 0 0 4.5rem;*/
-  padding: 1.5% 7%;
+  padding: 0.5% 7%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -46,6 +46,11 @@ body{
 }
 .right{
     width: 50%; 
+}
+
+.container-fluid {
+    background-color: #F5FAFF;
+    padding: 9%;
 }
 
 .h3-heading{
@@ -84,10 +89,14 @@ li{
 
 }
 
-section{
+.donate-main{
+    padding: 9%;
     background-color: var(--light); 
 }
 
+.donate-middle {
+    padding: 9%;
+}
 
 section h1{
     font-weight: normal; 
@@ -110,16 +119,10 @@ section h2{
     color: var(--dark); 
     font-size: 18px; 
 }
-
-section h3{
-    font-size: 26px; 
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align: center; 
+/* 
+section h3{  
     color: var(--darker); 
-    font-weight: normal; 
-    line-height: 40px; 
-}
+} */
 
 button {
     color: white;
@@ -275,4 +278,35 @@ section .section-title {
   font-weight: bold;
   font-size: 1.4rem;
   color: white;
+}
+
+@media only screen and (max-width: 1278px) {
+    .image {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 986px) {
+    .image {
+        width: 50%;
+        padding-bottom: 5%;
+        display: block;
+        margin: auto;
+    }
+
+    .p-subtext {
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 986px) {
+    .image {
+        padding-bottom: 10%;
+    }
+
+    /* .p-subtext {
+        font-size: small;
+        text-align: center;
+    } */
 }
