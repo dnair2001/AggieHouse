@@ -43,7 +43,7 @@ h2{
 }
 
 header h2{
-    font-size: 40px; 
+    font-size: 35px; 
     color: var(--darker); 
     text-align: center; 
     text-transform: none; 
@@ -85,11 +85,12 @@ p{
 }
 
 .button-underline{
-    font-size: 20px; 
+    font-size: 16px; 
     font-weight: bold; 
     color: #A5ACB2; 
     text-decoration: none; 
     border-bottom: 1.9px solid var(--ad_accent);  
+    margin-top: 10px;
     padding-bottom: 3px; 
     
 }
@@ -166,22 +167,17 @@ button span:nth-child(4) {
 .left{
     width: 50%; 
     height: 700px; 
-    margin: auto; 
+    margin: auto;  
+  
 }
  
+
 .right{
     width: 50%; 
     height: 700px;
     margin: auto; 
+    
 } 
-
-#mission .left{
-    height: 550px; 
-}
-
-#mission .right{
-    height: 550px; 
-}
 
 
  #team h2, #news h2,#get-involved h2 {
@@ -200,9 +196,14 @@ button span:nth-child(4) {
     margin-left: 150px; 
 }
 
-#news img{
+#news_img{
     margin-left: 150px; 
     width: 366px; 
+    margin-bottom: 50px; 
+}
+
+#news h4{
+    margin-bottom: 25px; 
 }
 
 
@@ -234,6 +235,8 @@ h4{
     margin-left: 150px; 
 }
 
+
+
 #news .square h4{  
     text-align: center; 
     color: white; 
@@ -242,8 +245,6 @@ h4{
     margin-left: 150px; 
     margin-right: 150px; 
     padding-top: 30px; 
- 
-  
 }
 
 #news .square  p{
@@ -251,8 +252,7 @@ h4{
     font-size: 18px; 
     margin: 100px; 
     text-align: center; 
-    margin-top: 40px; 
-    
+    margin-top: 40px;  
 }
 
 
@@ -265,7 +265,7 @@ h4{
     background-color: var(--darker); 
     width: 544px;
     height: 447px;
-    /*make inline*/
+    margin-top: 118px; 
 } 
 
 
@@ -288,13 +288,14 @@ h4{
     color: white; 
     text-align: center; 
     font-size: 40px; 
+    margin-top: 30px; 
 }
 
 #mission img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px; 
+    margin-top: 50px; 
     width: 200px;
     
 }
@@ -337,6 +338,7 @@ h4{
     color: var(--darker); 
     text-align: left; 
     margin-left: 150px; 
+    margin-top: 100px;
     font-weight: normal; 
     margin-bottom: 0; 
 }
