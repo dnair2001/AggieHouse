@@ -26,23 +26,6 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.flex-container{
-    display: flex; 
-    height: 540px; 
-}
-.left{
-    width: 50%; 
-    height: 540px; 
-}
-
-.right{
-    width: 50%; 
-    height: 540px; 
-}
-.flex-container .left{
-    background-color: #F5FAFF; 
-}
-
 :root {
     --light: #EFF1F3;
     --midtone: #FFCC76;
@@ -55,10 +38,10 @@ body{
 
 h1{
     text-transform: uppercase; 
-    margin-left: 150px; 
     font-size: 38px; 
     color:var(--dark); 
-    margin-top: 100px; 
+    padding-top: 5%;
+    text-align: center;
 }
 .flex-container .left p{
     font-size: 18px; 
@@ -85,11 +68,7 @@ h2{
 }
 
 p{
-    margin-left: 150px; 
-    font-size: 18px;
-    margin-bottom: 30px; 
     line-height: 27px; 
-    margin-right: 150px; 
     color: var(--darker);
 }
 
@@ -98,7 +77,20 @@ img{
     max-height: 100%;
 }
 
-button {
+.apply-btn {
+  background-color: #015D53;
+  color: white;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/* button {
     color: white;
     background-color: var(--dark); 
     font-size: 16px;
@@ -118,9 +110,9 @@ button {
     transition: 0.5s;
     margin-top: 50px; 
     margin-left: 150px; 
-}
+} */
 
-button span {
+/* button span {
     position: absolute;
     width: 25%;
     height: 100%;
@@ -131,9 +123,9 @@ button span {
     transition: 0.5s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
     z-index: -1;
-}
+} */
 
-button:hover {
+/* button:hover {
     color: #5F400D;
 }
 
@@ -155,7 +147,7 @@ button span:nth-child(3) {
 
 button span:nth-child(4) {
     --n: 4;
-}
+} */
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
