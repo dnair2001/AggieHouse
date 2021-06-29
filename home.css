@@ -1,6 +1,6 @@
 body{
-    margin: 0; 
-  
+    margin: 0;
+    overflow-x: hidden; 
 }
 
 /* Navigation Bar */
@@ -28,11 +28,10 @@ body{
 }
 
 header{
-    margin: 150px; 
-    margin-top: 50px; 
-    
-
+    /* margin: 150px; 
+    margin-top: 50px;  */
 }
+
 h2{
     font-size: 18px; 
     color: var(--dark); 
@@ -56,7 +55,6 @@ header h2{
 
 
 header img{
-    width: 900px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -165,24 +163,24 @@ button span:nth-child(4) {
 
 
 .left{
-    width: 50%; 
-    height: 700px; 
+    /* width: 50%;  */
+    /* height: 700px;  */
     margin: auto;  
   
 }
  
 
 .right{
-    width: 50%; 
-    height: 700px;
+    /* width: 50%; 
+    height: 700px; */
     margin: auto; 
     
 } 
 
 
  #team h2, #news h2,#get-involved h2 {
-    margin-left: 150px; 
-    padding-bottom: 50px;
+    /* margin-left: 150px; 
+    padding-bottom: 50px; */
 } 
 #mission h2{
     color: var(--midtone); 
@@ -197,7 +195,6 @@ button span:nth-child(4) {
 }
 
 #news_img{
-    margin-left: 150px; 
     width: 366px; 
     margin-bottom: 50px; 
 }
@@ -222,8 +219,6 @@ header button{
     margin-bottom: 0; 
 }
 
-
-
 h4{
     font-size: 25px; 
     color: var(--darker); 
@@ -242,8 +237,6 @@ h4{
     color: white; 
     font-size: 45px; 
     font-weight: bold; 
-    margin-left: 150px; 
-    margin-right: 150px; 
     padding-top: 30px; 
 }
 
@@ -263,8 +256,6 @@ h4{
 }
  #news .square {
     background-color: var(--darker); 
-    width: 544px;
-    height: 447px;
     margin-top: 118px; 
 } 
 
@@ -314,13 +305,14 @@ h4{
     background-color: var(--ad_accent_two);  
 }
 
-#team img{
-    width: 467px; 
-    margin-top: 130px;
-    margin-left: 151px; 
+#team img{ 
+    margin: auto;
+    width: 20em;
+    display: block;
 }
+
 #team h2{
-    padding-top: 200px; 
+    padding-top: 20%; 
     margin-left: 0; 
     padding-bottom: 20px; 
 }
@@ -336,9 +328,7 @@ h4{
 }
 #get-involved h3{
     color: var(--darker); 
-    text-align: left; 
-    margin-left: 150px; 
-    margin-top: 100px;
+    text-align: left;
     font-weight: normal; 
     margin-bottom: 0; 
 }
@@ -347,18 +337,25 @@ h4{
 }
 
 #get-involved p{
-    margin-left: 150px; 
-    margin-right: 270px; 
     margin-top: 0; 
     padding-top: 0; 
 }
-#get-involved img{
-    padding-top: 100px; 
+#get-involved img{ 
     width: 400px; 
 }
 
+.padding-fix{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-lg-6, .col-md-6, .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #get-involved button{
-    margin-left: 150px; 
+    /* margin-left: 150px;  */
 }
 
 /* Footer */
@@ -445,3 +442,16 @@ section .section-title {
   color: white;
 }
  
+@media only screen and (max-width: 768px) {
+    #header_img {
+        width: 60vw;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    #get-involved img {
+        width: 45vw;
+    }
+  }
