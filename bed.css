@@ -41,16 +41,10 @@ h1{
     font-size: 38px; 
     color:var(--dark); 
     padding-top: 5%;
-    text-align: center;
+    padding-left: 18%; 
 }
-.flex-container .left p{
-    font-size: 18px; 
-    color: var(--dark); 
-    margin-left: 150px; 
-    margin-right: 150px; 
-    line-height: 30px; 
-  
-}
+
+
 
 h2{
     margin-top: 70px; 
@@ -67,9 +61,17 @@ h2{
 
 }
 
+#bed-left{
+  background-color: var(--ad_accent_two); 
+}
+
 p{
     line-height: 27px; 
     color: var(--darker);
+    padding-left: 18%; 
+    padding-right: 18%; 
+    line-height: 1.68em; 
+    padding-top: 2%; 
 }
 
 img{
@@ -77,20 +79,8 @@ img{
     max-height: 100%;
 }
 
-.apply-btn {
-  background-color: #015D53;
-  color: white;
-  padding: 7px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 25px;
-}
 
-/* button {
+.apply-btn {
     color: white;
     background-color: var(--dark); 
     font-size: 16px;
@@ -110,9 +100,9 @@ img{
     transition: 0.5s;
     margin-top: 50px; 
     margin-left: 150px; 
-} */
+} 
 
-/* button span {
+ .apply-btn span {
     position: absolute;
     width: 25%;
     height: 100%;
@@ -123,31 +113,31 @@ img{
     transition: 0.5s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
     z-index: -1;
-} */
+} 
 
-/* button:hover {
+.apply-btn:hover {
     color: #5F400D;
 }
 
- button:hover span {
+.apply-btn:hover span {
     transform: translateY(0) scale(2);
 }
 
-button span:nth-child(1) {
+.apply-btn span:nth-child(1) {
     --n: 1;
 }
 
-button span:nth-child(2) {
+.apply-btn span:nth-child(2) {
     --n: 2;
 }
 
-button span:nth-child(3) {
+.apply-btn span:nth-child(3) {
     --n: 3;
 }
 
-button span:nth-child(4) {
+.apply-btn span:nth-child(4) {
     --n: 4;
-} */
+} 
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');

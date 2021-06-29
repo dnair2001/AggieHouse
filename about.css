@@ -47,6 +47,14 @@ h3 {
 	padding-top: 5%;
 	padding-left: 10%;
   font-family: 'Merriweather', serif;
+  text-decoration: none; 
+}
+a{
+  text-decoration: none; 
+}
+
+.line:hover{
+  font-style: bold; 
 }
 
 .div2 {
@@ -64,12 +72,24 @@ h3 {
 	padding-left: 25%;
 	padding-right: 25%;
   font-family: 'Poppins', sans-serif;
+  text-align: center; 
+  padding-top: 2%; 
+  line-height: 1.68em; 
 }
 
 .ptext {
 	padding-left: 25%;
 	padding-right: 25%;
   font-family: 'Poppins', sans-serif;
+  padding-top: 2%; 
+  line-height: 1.68em;
+}
+
+.goals-list{
+  padding-left: 27%; 
+  font-family: 'Poppins', sans-serif;
+  padding-top: 2%;
+  line-height: 1.68em; 
 }
 
 .image {
@@ -84,7 +104,8 @@ h3 {
 .p-heading {
 	/*padding-left: 25%;
 	padding-right: 25%;*/
-	padding: 0% 25% 10% 25%;
+	padding: 0% 28% 10% 28%;
+  text-align: center; 
 	color: #015D53;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
@@ -171,17 +192,28 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+
+.ptext{
+  text-align: center; 
+}
+.p-our-story{
+  text-align: center; 
+}
+
+
 }
 
 @media only screen and (max-width: 426px) {
   .ptext {
     padding-left: 7%;
     padding-right: 7%;
+    text-align: center;
   }
 
     .p-our-story {
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
   }
 
     col-lg-6, col-md-6, col-sm-12 {
