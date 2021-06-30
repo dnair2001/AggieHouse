@@ -56,24 +56,10 @@ h1{
     font-size: 38px; 
     color:var(--dark); 
     padding-top: 5%;
-    text-align: center;
+
 }
 
-.left-style {
-  padding-top: 10%;
-  padding-left: 7%;
-  padding-right: 7%;
-  padding-bottom: 10%;
-}
 
-.flex-container .left p{
-    font-size: 18px; 
-    color: var(--dark); 
-    margin-left: 150px; 
-    margin-right: 150px; 
-    line-height: 30px; 
-  
-}
 
 h2{
     text-transform: uppercase; 
@@ -112,9 +98,17 @@ h2{
   font-family: 'Poppins', sans-serif;
 }
 
+#bed-left{
+  background-color: var(--ad_accent_two); 
+}
+
 p{
     line-height: 27px; 
     color: var(--darker);
+    padding-left: 18%; 
+    padding-right: 18%; 
+    line-height: 1.68em; 
+    padding-top: 2%; 
 }
 
 img{
@@ -122,20 +116,7 @@ img{
     max-height: 100%;
 }
 
-/* .apply-btn {
-  background-color: #015D53;
-  color: white;
-  padding: 7px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 25px;
-  display: block;
-  margin: auto;
-} */
+
 
 .apply-btn {
     color: white;
@@ -155,11 +136,7 @@ img{
     overflow: hidden;
     z-index: 1;
     transition: 0.5s;
-    margin:auto;
-    display: block;
-}
 
-.apply-btn span {
     position: absolute;
     width: 25%;
     height: 100%;
@@ -170,7 +147,7 @@ img{
     transition: 0.5s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
     z-index: -1;
-}
+
 
 .apply-btn:hover {
     color: #5F400D;
@@ -194,7 +171,7 @@ img{
 
 .apply-btn span:nth-child(4) {
     --n: 4;
-}
+
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
