@@ -8,7 +8,7 @@
 	padding-left: 16%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Merriweather';
   color: #015D53;
   font-weight: bold;
 }
@@ -65,9 +65,9 @@ section .section-title {
 }
 
 .name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather';
   font-weight: 600;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .major {
