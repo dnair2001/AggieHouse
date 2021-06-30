@@ -36,7 +36,7 @@ h2{
     color: var(--dark); 
     text-transform: uppercase;
     margin-bottom: 0; 
-    padding-top: 50px;
+    /* padding-top: 50px; */
    
 }
 
@@ -99,7 +99,8 @@ h1{
 a:hover{
     color: var(--darker); 
 }
-button {
+
+.get-involved {
     color: #5F400D;
     background-color: var(--ad_accent); 
     font-size: 16px;
@@ -117,11 +118,11 @@ button {
     overflow: hidden;
     z-index: 1;
     transition: 0.5s;
-    margin: 1em;
+    /* margin: 1em; */
  
 }
 
-button span {
+.get-involved span {
     position: absolute;
     width: 25%;
     height: 100%;
@@ -134,27 +135,27 @@ button span {
     z-index: -1;
 }
 
-button:hover {
+.get-involved:hover {
     color: white;
 }
 
- button:hover span {
+.get-involved:hover span {
     transform: translateY(0) scale(2);
 }
 
-button span:nth-child(1) {
+.get-involved span:nth-child(1) {
     --n: 1;
 }
 
-button span:nth-child(2) {
+.get-involved span:nth-child(2) {
     --n: 2;
 }
 
-button span:nth-child(3) {
+.get-involved span:nth-child(3) {
     --n: 3;
 }
 
-button span:nth-child(4) {
+.get-involved span:nth-child(4) {
     --n: 4;
 }
 
@@ -184,37 +185,46 @@ button span:nth-child(4) {
 #mission h2{
     color: var(--midtone); 
     text-align: center; 
-    padding-top: 75px; 
+    /* padding-top: 75px;  */
 }
 #news{
     background-color: var(--light);
-    padding: 10%;
 }
+
+.news-row {
+    padding: 8%;
+}
+
 #news a {
-    margin-left: 150px; 
+    /* margin-left: 150px;  */
 }
 
 #news_img{
-    width: 366px; 
-    margin-bottom: 50px; 
+    /* width: 366px;  */
+    /* margin-bottom: 50px;  */
+    /* width: 60%; */
+    /* margin-right: 4%;
+} */
 }
 
 #news h4{
-    margin-bottom: 25px; 
+    /* margin-bottom: 25px;  */
 }
 
 
 
 
-#news .square button, header button{
-    margin: 0;
+header .get-involved{
+    /* margin: 0;
     position: relative; 
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    display: block;
+    margin: auto;
 }
 
-header button{
+header .get-involved{
     margin-top: 80px; 
     margin-bottom: 0; 
 }
@@ -237,32 +247,30 @@ h4{
     color: white; 
     font-size: 45px; 
     font-weight: bold; 
-    padding-top: 30px; 
 }
 
 #news .square  p{
     color: var(--light); 
-    font-size: 18px; 
-    margin: 100px; 
-    text-align: center; 
-    margin-top: 40px;  
+    font-size: 18px;  
+    text-align: center;  
 }
 
 
 #news .left p{
-    margin-left: 150px; 
-    margin-right: 180px; 
+    /* margin-left: 150px; 
+    margin-right: 180px;  */
 
 }
  #news .square {
     background-color: var(--darker); 
-    margin-top: 118px; 
+    /* margin-top: 118px;  */
+    padding: 15%;
 } 
 
 
 #mission{
     background-color: var(--dark); 
-    padding: 10%;
+    padding: 6%;
 }
 
 #mission .left{
@@ -309,14 +317,14 @@ h4{
 
 #team img{ 
     margin: auto;
-    width: 20em;
+    width: 30em;
     display: block;
 }
 
 #team h2{
-    padding-top: 20%; 
+    padding-top: 25%; 
     margin-left: 0; 
-    padding-bottom: 20px; 
+    /* padding-bottom: 20px;  */
 }
 #team h3{
     color: #545454; 
@@ -325,8 +333,8 @@ h4{
     margin-top: 0; 
 }
 #team p{
-    margin-right: 200px; 
-    margin-bottom: 30px; 
+    /* margin-right: 200px; 
+    margin-bottom: 30px;  */
 }
 
 #get-involved {
@@ -340,7 +348,7 @@ h4{
     margin-bottom: 0; 
 }
 #get-involved h2{
-    padding-bottom: 30px; 
+    padding-bottom: 15px; 
 }
 
 #get-involved p{
@@ -348,7 +356,10 @@ h4{
     padding-top: 0; 
 }
 #get-involved img{ 
-    width: 400px; 
+    padding-left: 15%;
+    display: block;
+    margin: auto;
+    width: 80%; 
 }
 
 .padding-fix{
@@ -451,7 +462,9 @@ section .section-title {
  
 @media only screen and (max-width: 768px) {
     #header_img {
-        width: 60vw;
+        width: 80vw;
+        margin: auto;
+        display: block;
     }
 
     header h2 {
@@ -460,5 +473,12 @@ section .section-title {
 
     #get-involved img {
         width: 45vw;
+    }
+
+    #news_img{
+        margin: auto;
+        display: block;
+        width: 50vw;
+        margin-bottom: 50px; 
     }
   }
