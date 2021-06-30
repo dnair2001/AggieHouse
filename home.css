@@ -28,20 +28,44 @@ body{
 }
 
 header{
-    padding: 10%;
+    padding: 6%;
 }
+
+h1,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+}
+
+.square h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 
 h2{
     font-size: 18px; 
     color: var(--dark); 
     text-transform: uppercase;
     margin-bottom: 0; 
-    /* padding-top: 50px; */
-   
+    
+
+}
+
+#news h2{
+    padding-top: 6%; 
+    padding-left: 8%; 
 }
 
 header h2{
-    font-size: 35px; 
+    font-size: 30px; 
     color: var(--darker); 
     text-align: center; 
     text-transform: none; 
@@ -84,12 +108,15 @@ p{
 .button-underline{
     font-size: 16px; 
     font-weight: bold; 
-    color: #A5ACB2; 
+    color: #78797B; 
     text-decoration: none; 
     border-bottom: 1.9px solid var(--ad_accent);  
     margin-top: 10px;
     padding-bottom: 3px; 
     
+}
+a:hover{
+    text-decoration: none; 
 }
 h1{
     color: var(--darker); 
@@ -97,8 +124,11 @@ h1{
 }
 
 a:hover{
+    text-decoration: none; 
     color: var(--darker); 
 }
+
+
 
 .get-involved {
     color: #5F400D;
@@ -192,7 +222,10 @@ a:hover{
 }
 
 .news-row {
-    padding: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    padding-left: 8%; 
+    padding-right: 8%; 
 }
 
 #news a {
@@ -225,8 +258,8 @@ header .get-involved{
 }
 
 header .get-involved{
-    margin-top: 80px; 
-    margin-bottom: 0; 
+    margin-top: 50px; 
+    margin-bottom: 30px; 
 }
 
 h4{
@@ -270,7 +303,10 @@ h4{
 
 #mission{
     background-color: var(--dark); 
-    padding: 6%;
+    padding-left: 8%;
+    padding-right: 8%; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
 }
 
 #mission .left{
@@ -295,7 +331,7 @@ h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px; 
+    margin-top: 100px; 
     width: 200px;
     
 }
@@ -307,12 +343,15 @@ h4{
     color: white; 
     text-align: center; 
     margin-top:60px; 
-    margin: 100px; 
+    margin: 40px; 
 
 }
 #team{
     background-color: var(--ad_accent_two);  
-    padding: 12%;
+    padding-left: 8%; 
+    padding-right: 8%; 
+    padding-top: 10%;
+    padding-bottom: 10%; 
 }
 
 #team img{ 
@@ -323,6 +362,7 @@ h4{
 
 #team h2{
     padding-top: 25%; 
+    padding-bottom: 2.25%; 
     margin-left: 0; 
     /* padding-bottom: 20px;  */
 }
@@ -338,7 +378,10 @@ h4{
 }
 
 #get-involved {
-    padding: 10%;
+    padding-left: 8%;
+    padding-right: 8%; 
+    padding-top: 6%; 
+    padding-bottom: 10%; 
 }
 
 #get-involved h3{
@@ -352,7 +395,7 @@ h4{
 }
 
 #get-involved p{
-    margin-top: 0; 
+    margin-right: 30px; 
     padding-top: 0; 
 }
 #get-involved img{ 
