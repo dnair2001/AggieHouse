@@ -30,6 +30,7 @@ h3 {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.4rem;
+  color: white;
 }
 
 h6 {
@@ -44,15 +45,19 @@ p {
   margin-top: 2em;
 }
 
-.container-fluid {
-  /* padding: 3% 15% 7%; */
-  padding: 3% 7%;
+.col-lg-6, .col-md-6, .col-sm-12 {
+  padding-left: 0;
+  padding-right: 0;
 }
+
+/* .container-fluid {
+  padding: 3% 7%;
+} */
 
 /* Navigation Bar */
 .navbar {
   /*padding: 0 0 4.5rem;*/
-  padding: 1.5% 7%;
+  padding: 0.5% 7%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -76,6 +81,7 @@ p {
 /* Card and Carousel Section */
 .card {
   background-color: #EFF1F3;
+  height: 830px;
 }
 
 .center {
@@ -84,7 +90,15 @@ p {
   padding-bottom: 3%;
 }
 
-.button {
+.li-style {
+  padding: 2%;
+}
+
+.last-li {
+  padding-bottom: 10%;
+}
+
+.button-reg {
   background-color: #FFD794;
   border: none;
   color: black;
@@ -98,10 +112,68 @@ p {
   width: 269px;
 }
 
+/* Button Effect */
+.button {
+  color: white;
+  background-color: #FFD794; 
+  font-size: 16px;
+  border: 0.3em ;
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.button span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #015D53;
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.button:hover {
+  color: #5F400D;
+}
+
+.button:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.button span:nth-child(1) {
+  --n: 1;
+}
+
+.button span:nth-child(2) {
+  --n: 2;
+}
+
+.button span:nth-child(3) {
+  --n: 3;
+}
+
+.button span:nth-child(4) {
+  --n: 4;
+}
+
 #apply-btn {
   width: 30%;
   border-radius: 25px;
-  padding: 10px 5px;
+  /* padding: 10px 5px; */
 }
 
 #donate-btn {
@@ -113,16 +185,19 @@ p {
   padding-bottom: 11%;
 }
 
-#volunteer-section {
+.volunteer-section {
   background-color: #F5FAFF;
+  padding: 4%;
 }
 
-#leadership-section {
+.leadership-section {
   background-color: #EFF1F3;
+  padding: 4%;
 }
 
-#collaborate-section {
+.collaborate-section {
   background-color: #F5FAFF;
+  padding: 4%;
 }
 
 .p-our-story {
@@ -138,10 +213,22 @@ p {
 .image {
   width: 30em;
   height: 20em;
+  margin: auto;
+  display: block;
 }
 
-#img2 {
-  margin-left: 22%;
+.carousel-image {
+  height: 830px;
+}
+
+.getInvolved-main {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+
+.card-body {
+  padding: 0;
 }
 
 
@@ -221,4 +308,26 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+
+@media only screen and (max-width: 500px) {
+  .image {
+    width: 20em;
+    height: 10em;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mobile {
+    display: none;
+  }
+  .getInvolved-main {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+    .card-body {
+      background-color: #EFF1F3;
+    }
 }
