@@ -34,15 +34,14 @@ h3 {
 
 .header-sub {
   margin-bottom: 0;
-  padding-bottom: 5%;
-  text-align: center; 
+  padding-bottom: 5%; 
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 .submit-btn {
   background-color: #015D53;
   color: white;
-  padding: 7px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -50,6 +49,8 @@ h3 {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
+  width: 12em;
+  height: 3em;
 }
 
 .image {
@@ -72,9 +73,10 @@ h3 {
 }
 
 .social-heading {
-  font-size: 30px; 
-  font-weight: bold; 
-  padding-top: 2%;
+  font-size: 22px; 
+  font-family: 'Merriweather', serif;
+  color: #015D53;
+  padding-top: 4%;
 }
 
 /* Footer */
@@ -155,7 +157,7 @@ section .section-title {
 }
 
 @media only screen and (max-width: 768px) {
- img {
+.icon {
   width: 17vw;
   height: 17vh;
  }
@@ -166,5 +168,11 @@ section .section-title {
 
  .header-sub {
   font-size: x-small;
+  text-align: center;
  }
+
+ .header-style {
+  text-align: center;
+}
+
 }

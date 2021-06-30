@@ -1,17 +1,20 @@
 .image-column {
 	padding-right: 15%;
 	padding-left: 15%;
+  padding-bottom: 4%;
 }
 
 .ourTeam-heading {
-	padding-left: 15%;
+	padding-left: 16%;
 	padding-top: 5%;
-	padding-bottom: 2%;
-	font-family: 'Poppins', sans-serif;
+	padding-bottom: 5%;
+	font-family: 'Playfair Display', serif;
+  color: #015D53;
+  font-weight: bold;
 }
 
 .image {
-  padding-bottom: 4%;
+  /* padding-bottom: 4%; */
 }
 
 .container-fluid {
@@ -54,6 +57,24 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+
+.position {
+  color: #015D53;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.major {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
 #footer {
     background: #545454 !important;
     padding: 60px 0;
@@ -124,4 +145,29 @@ section .section-title {
   font-weight: bold;
   font-size: 1.4rem;
   color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .image-column {
+    padding-bottom: 0;
+  }
+
+  .image {
+    padding-bottom: 7%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  .spacer {
+    padding-bottom: 10%;
+  }
+
+  .ourTeam-heading {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 6%;
+  }
 }
