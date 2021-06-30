@@ -227,10 +227,21 @@ section .section-title {
   }
 
   .p-heading {
-    padding: 0% 10% 10% 17%;
+    padding: 0% 17% 10% 17%;
   }
-/*  .text-heading {
+
+  .text-heading {
     margin-left: 0;
     text-align: center;
-  }*/
+  }
+
+  .goals-list {
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding-left: 13%;
+  }
+
+  .links {
+    padding-top: 15%;
+  }
 }
