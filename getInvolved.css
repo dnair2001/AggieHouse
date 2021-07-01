@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .title {
@@ -38,6 +38,10 @@ h2 {
 
 h3 {
   font-family: 'Poppins', sans-serif;
+}
+
+.h3-header {
+  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.4rem;
   color: white;
@@ -110,10 +114,12 @@ p{
 
 .li-style {
   padding: 2%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .last-li {
   padding-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button-reg {
@@ -235,6 +241,7 @@ p{
 .ptext {
   padding-left: 15%;
   padding-right: 15%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .image {
@@ -299,7 +306,6 @@ section .section-title {
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    font-size: 15px;
 }
 /*#footer ul.social li{
   padding: 3px 0;
