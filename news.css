@@ -57,7 +57,7 @@ body{
 }
 
 #headline-one {
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 
 .block-one {
@@ -84,10 +84,16 @@ body{
     
 }  */
 
+#aggie-link {
+  padding-left: 13%;
+  text-decoration: underline; 
+  color: #015D53;
+}
+
 
 
 .news-h1{
-    text-transform: uppercase; 
+    /* text-transform: uppercase;  */
     font-size: 38px; 
     color:var(--dark); 
     padding-left: 7%;
@@ -99,15 +105,16 @@ body{
 
 
 .headline{
-    font-weight: normal;
-    font-size: 24px;
+    font-size: 21px;
     color: black; 
+    font-family: 'Merriweather';
 }
 
 .news-text{
     font-weight: normal;
-    font-size: 16px;
-    color: var(--darker)
+    font-size: 14px;
+    color: var(--darker);
+    font-family: 'Poppins', sans-serif;
 }
 
 .date{
@@ -116,12 +123,23 @@ body{
     font-weight: normal;
 }
 
-.button-underline{
+/* .button-underline{
     color: var(--darker);
     font-size: 18px; 
     font-weight: normal;
     border-bottom: 1.9px solid var(--dark);  
 }
+
+.button-underline{
+  font-size: 16px; 
+  font-weight: bold; 
+  color: #78797B; 
+  text-decoration: none; 
+  border-bottom: 1.9px solid var(--ad_accent);  
+  margin-top: 10px;
+  padding-bottom: 3px; 
+  
+} */
 
 
 /* .flex-container-two{
@@ -136,6 +154,10 @@ body{
     width: 50%; 
 } */
 
+.yt-video {
+  padding: 7%;
+  background-color: #F5FAFF;
+}
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -221,9 +243,14 @@ section .section-title {
     padding-left: 15px;
   }
 
+  #aggie-link {
+    padding-left: 3%;
+  }
+
   .news-h1 {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 3%;
+    padding-left: 3%;
   }
 
   .img-right {

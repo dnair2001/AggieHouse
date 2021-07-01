@@ -10,7 +10,7 @@
 	padding-bottom: 5%;
 	font-family: 'Merriweather';
   color: #015D53;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .image {
@@ -62,6 +62,7 @@ section .section-title {
   color: #015D53;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  padding-top: 5%;
 }
 
 .name {
@@ -73,6 +74,10 @@ section .section-title {
 .major {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
+}
+
+figcaption {
+  padding-bottom: 1%;
 }
 
 #footer {
