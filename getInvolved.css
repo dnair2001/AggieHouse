@@ -31,7 +31,7 @@ h1 {
 
 h2 {
   font-family: 'Merriweather', serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -230,7 +230,7 @@ p{
 .collaborate-section {
   background-color: #F5FAFF;
   padding: 4%;
-  display: flex;
+  /* display: flex; */
 }
 
 .p-our-story {
@@ -245,8 +245,7 @@ p{
 }
 
 .image {
-  width: 30em;
-  height: 20em;
+  padding-top: 5%;
   margin: auto;
   display: block;
 }
@@ -361,12 +360,13 @@ section .section-title {
 }
 
 @media only screen and (max-width: 500px) {
-  .image {
-    width: 20em;
-    height: 10em;
-  }
+
   .getInvolved-main {
     padding: 0; 
+  }
+
+  .image {
+    padding-bottom: 5%;
   }
 
   .volunteer-section {

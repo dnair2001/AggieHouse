@@ -58,7 +58,9 @@ h3 {
   height: 20em;
 }
 
-
+label {
+  font-family: 'Poppins', sans-serif;
+}
 
 #social-media {
   display: flex;

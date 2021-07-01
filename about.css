@@ -72,7 +72,7 @@ a{
 	padding-left: 25%;
 	padding-right: 25%;
   font-family: 'Poppins', sans-serif;
-  text-align: center; 
+  /* text-align: center;  */
   padding-top: 2%; 
   line-height: 1.68em; 
 }
@@ -194,12 +194,12 @@ section .section-title {
     margin-bottom: 10px;
 }
 
-.ptext{
+/* .ptext{
   text-align: center; 
-}
-.p-our-story{
+} */
+/* .p-our-story{
   text-align: center; 
-}
+} */
 
 
 }
@@ -208,13 +208,14 @@ section .section-title {
   .ptext {
     padding-left: 7%;
     padding-right: 7%;
-    text-align: center;
+    padding-bottom: 10%;
+    /* text-align: center; */
   }
 
     .p-our-story {
     padding-left: 10%;
     padding-right: 10%;
-    text-align: center;
+    /* text-align: center; */
   }
 
     col-lg-6, col-md-6, col-sm-12 {
@@ -227,7 +228,7 @@ section .section-title {
   }
 
   .p-heading {
-    padding: 0% 17% 10% 17%;
+    padding: 0% 10% 17% 10%;
   }
 
   .text-heading {
@@ -239,6 +240,7 @@ section .section-title {
     /* padding-left: 10%;
     padding-right: 10%; */
     padding-left: 13%;
+    padding-right: 7%;
   }
 
   .links {

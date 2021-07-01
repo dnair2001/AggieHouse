@@ -32,7 +32,7 @@ body{
 } */
 
 h1,h3,h4,h5{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 h2{
@@ -290,6 +290,8 @@ h4{
     padding-bottom: 6%;  
     margin-left: 0.6em; 
     margin-right: 0.6em; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -316,6 +318,8 @@ h4{
     padding-right:30%;
     padding-top: 2%; 
     padding-bottom: 5%; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 .news-case-manager-text {
@@ -373,7 +377,8 @@ h4{
     text-align: center; 
     margin-top:60px; 
     margin: 40px; 
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 #team{
     background-color: var(--ad_accent_two);  
@@ -554,7 +559,7 @@ section .section-title {
 
 }
 
-@media only screen and (max-width: 836px) {
+@media only screen and (max-width: 905px) {
     header img {
         width: 90%;
     }
@@ -589,6 +594,10 @@ section .section-title {
   }
 
   @media only screen and (max-width: 532px) {
+    header h2 {
+        font-size: 15px;
+    }
+
     #team img {
         width: 100%;
     }
