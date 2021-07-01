@@ -67,6 +67,37 @@ h3 {
   gap: 20%;
 }
 
+:root {
+  --light: #EFF1F3;
+  --midtone: #FFCC76;
+  --dark:  #015D53;
+  --darker: #545454; 
+  --ad_accent: #FFCC76;
+  --ad_accent_two: #F5FAFF; 
+
+}
+
+
+.submit-btn {
+  color: white;
+  background-color: var(--dark); 
+  font-size: 16px;
+  border: 0.3em ;
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+}
+
 .text-heading {
   font-family: 'Poppins', sans-serif;
   margin-left: 25%;

@@ -27,9 +27,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-header{
+/* header{
     padding: 6%;
-}
+} */
 
 h1,h3,h4,h5{
     font-family: 'Poppins', sans-serif;
@@ -37,6 +37,7 @@ h1,h3,h4,h5{
 
 h2{
     font-family: 'Merriweather', serif;
+
 }
 
 .square h2{
@@ -58,27 +59,35 @@ h2{
 }
 
 #news h2{
-    padding-top: 6%; 
-    padding-left: 8%; 
+    padding-top: 6%;
+    padding-left: 7%; 
+    padding-bottom: 0; 
+    margin-bottom: 0; 
 }
 
 header h2{
-    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px; 
     color: var(--darker); 
     text-align: center; 
     text-transform: none; 
-    font-weight: normal; 
+    font-weight: 300; 
     margin-top: 40px; 
     padding-top: 0; 
 
 }
 
+#news img{
+    padding-top: 0; 
+    margin-top: 0; 
+}
 
 
 header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -320px; 
   
 
 }
@@ -113,6 +122,7 @@ p{
     padding-bottom: 3px; 
     
 }
+
 a:hover{
     text-decoration: none; 
 }
@@ -216,12 +226,12 @@ a:hover{
     /* padding-top: 75px;  */
 }
 #news{
-    background-color: var(--light);
+    background-color: #F1F2F3;
 }
 
 .news-row {
-    padding-top: 5%;
-    padding-bottom: 5%; 
+    padding-top: 3%;
+    padding-bottom: 7%; 
     padding-left: 8%; 
     padding-right: 8%; 
 }
@@ -230,13 +240,7 @@ a:hover{
     /* margin-left: 150px;  */
 }
 
-#news_img{
-    /* width: 366px;  */
-    /* margin-bottom: 50px;  */
-    /* width: 60%; */
-    /* margin-right: 4%;
-} */
-}
+
 
 #news h4{
     /* margin-bottom: 25px;  */
@@ -245,19 +249,13 @@ a:hover{
 
 
 
-header .get-involved{
-    /* margin: 0;
-    position: relative; 
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
-    display: block;
-    margin: auto;
-}
+
 
 header .get-involved{
+    display: block;
+    margin: auto;
     margin-top: 50px; 
-    margin-bottom: 30px; 
+    margin-bottom: 150px; 
 }
 
 h4{
@@ -278,24 +276,36 @@ h4{
     color: white; 
     font-size: 45px; 
     font-weight: bold; 
+    margin-top: 0; 
+    padding-top: 0; 
+    padding-bottom: 4%; 
+    margin-left: 2em; 
+    margin-right: 2em;
 }
 
 #news .square  p{
     color: var(--light); 
     font-size: 18px;  
-    text-align: center;  
+    text-align: center; 
+    padding-bottom: 6%;  
+    margin-left: 0.6em; 
+    margin-right: 0.6em; 
 }
 
 
 #news .left p{
-    /* margin-left: 150px; 
-    margin-right: 180px;  */
+    padding-top: 2%; 
+    padding-bottom: 10%; 
 
 }
  #news .square {
     background-color: var(--darker); 
     /* margin-top: 118px;  */
-    padding: 15%;
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-top: 10%; 
+    padding-bottom: 17%; 
+
 }
 
 #news-case-style1 {
@@ -304,6 +314,8 @@ h4{
 
 #news-case-style2 {
     padding-right:30%;
+    padding-top: 2%; 
+    padding-bottom: 5%; 
 }
 
 .news-case-manager-text {
@@ -527,6 +539,20 @@ section .section-title {
     #news-case-style1 {
         padding-right: 10%;
     }
+
+    #news .square h4{
+        margin: 0; 
+    }
+
+
+    #news .left p{
+        padding-top: 2%; 
+        padding-bottom: 3%; 
+    
+    }
+    
+
+    
 }
 
 @media only screen and (max-width: 836px) {
@@ -598,7 +624,146 @@ section .section-title {
     }
 
     header {
-        padding-top: 20%;
-        padding-bottom: 20%
+        padding-bottom: 40%
     }
+
+    .top-padding{
+        padding-bottom: 40%; 
+    }
+    
+
   }
+
+  /*Lets start with the cloud formation rather*/
+
+/*The container will also serve as the SKY*/
+
+
+
+body {
+	/*To hide the horizontal scroller appearing during the animation*/
+	
+}
+
+#clouds{
+	padding: 100px 0;
+	background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+/*Time to finalise the cloud shape*/
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+.x1 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+.x2 {
+	left: 200px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+	
+	/*Speed will also be proportional to the size and opacity*/
+	/*More the speed. Less the time in 's' = seconds*/
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; top: -105px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 470px; top: -100px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -150px; top: -150px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+  
+
+
+ 
+  
+
+  
