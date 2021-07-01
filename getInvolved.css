@@ -179,13 +179,13 @@ p{
 }
 
 #apply-btn {
-  width: 30%;
-  border-radius: 25px;
+  /* width: 30%; */
+  /* border-radius: 25px; */
   /* padding: 10px 5px; */
 }
 
 #donate-btn {
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 .padding {
@@ -206,6 +206,7 @@ p{
 .collaborate-section {
   background-color: #F5FAFF;
   padding: 4%;
+  display: flex;
 }
 
 .p-our-story {
@@ -239,6 +240,16 @@ p{
 
 .card-body {
   padding: 0;
+}
+
+h5 {
+  margin-left: 15%; 
+  color: black;
+  padding-bottom: 2%;
+}
+
+.right-panel {
+  margin: auto;
 }
 
 
@@ -333,6 +344,30 @@ section .section-title {
   .getInvolved-main {
     padding: 0; 
   }
+
+  .volunteer-section {
+    padding: 6%;
+    padding-top: 15%;
+  }
+
+  .leadership-section {
+    padding: 6%;
+    padding-top: 15%;
+  }
+
+  .collaborate-section {
+    padding: 6%;
+    padding-top: 15%;
+  }
+
+  .ptext {
+    padding-right: 5%;
+  }
+
+  h5 {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -343,6 +378,7 @@ section .section-title {
     padding-top: 0;
     padding-left: 0;
     padding-bottom: 0;
+    padding-right: 0;
   }
 
     .card-body {

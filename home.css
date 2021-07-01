@@ -43,12 +43,10 @@ h2{
     font-family: 'Poppins', sans-serif;
 }
 
-header h2{
+header p{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
-
-
-
 
 h2{
     font-size: 18px; 
@@ -298,7 +296,27 @@ h4{
     background-color: var(--darker); 
     /* margin-top: 118px;  */
     padding: 15%;
-} 
+}
+
+#news-case-style1 {
+    padding-top: 5%;
+}
+
+#news-case-style2 {
+    padding-right:30%;
+}
+
+.news-case-manager-text {
+
+}
+
+.bedSquare {
+    padding-left: 7%;
+}
+
+.bedText-padding {
+   padding-bottom: 5%;
+}
 
 
 #mission{
@@ -336,7 +354,6 @@ h4{
     
 }
 
-
 #mission p{
     font-weight: 500;
     font-size: 18px;
@@ -356,7 +373,6 @@ h4{
 
 #team img{ 
     margin: auto;
-    width: 30em;
     display: block;
 }
 
@@ -503,6 +519,22 @@ section .section-title {
   color: white;
 }
  
+@media only screen and (max-width: 1132px) {
+    #news_img {
+        width: 70%;
+    }
+
+    #news-case-style1 {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 836px) {
+    header img {
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #header_img {
         width: 80vw;
@@ -521,7 +553,52 @@ section .section-title {
     #news_img{
         margin: auto;
         display: block;
-        width: 50vw;
+        width: 70vw;
         margin-bottom: 50px; 
+    }
+  }
+
+  @media only screen and (max-width: 532px) {
+    #team img {
+        width: 100%;
+    }
+
+    #news-case-style2 {
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+
+    #news_img {
+        margin-bottom: 10%;
+    }
+
+    #news h2 {
+        padding-bottom: 7%;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #news .square {
+        margin-top: 10%;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #get-involved img {
+        width: 50vw;
+        padding-left: 0;
+        margin: 0;
+        padding-top: 15%;
+    }
+
+    header {
+        padding-top: 20%;
+        padding-bottom: 20%
     }
   }
