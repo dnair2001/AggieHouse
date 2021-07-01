@@ -87,7 +87,7 @@ header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -320px; 
+    margin-top: -160px; 
   
 
 }
@@ -552,7 +552,6 @@ section .section-title {
     }
     
 
-    
 }
 
 @media only screen and (max-width: 836px) {
@@ -563,9 +562,14 @@ section .section-title {
 
 @media only screen and (max-width: 768px) {
     #header_img {
-        width: 80vw;
+        /* width: 80vw; */
         margin: auto;
         display: block;
+        margin-top: 0;
+    }
+
+    #clouds {
+        padding: 0px 0;
     }
 
     header h2 {
@@ -623,10 +627,6 @@ section .section-title {
         padding-top: 15%;
     }
 
-    header {
-        padding-bottom: 40%
-    }
-
     .top-padding{
         padding-bottom: 40%; 
     }
@@ -646,7 +646,7 @@ body {
 }
 
 #clouds{
-	padding: 100px 0;
+	padding: 0px 0;
 	background: #c9dbe9;
 	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -688,6 +688,13 @@ body {
 
 /*Time to animate*/
 .x1 {
+    left: 120px;
+	top: 35px;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+
 	-webkit-animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;
 	-o-animation: moveclouds 15s linear infinite;
@@ -710,7 +717,7 @@ body {
 }
 
 .x3 {
-	left: -250px; top: -105px;
+	left: -250px; top: -70px;
 	
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
