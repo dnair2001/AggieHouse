@@ -56,7 +56,7 @@ h1{
   /* text-transform: uppercase;  */
   font-size: 38px; 
   color:var(--dark); 
-  text-align: left;
+  /* text-align: left; */
   padding-bottom: 5%; 
 }
 
