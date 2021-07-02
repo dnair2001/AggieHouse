@@ -4,6 +4,7 @@ body{
 
 .container-fluid {
 background-color: white;
+padding-top: 3px;
 }
 
 .left-area {
