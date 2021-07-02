@@ -91,7 +91,8 @@ h4{
     padding-left: 20%;
     padding-right: 20%;
     color: var(--darker); 
-    line-height: 1.68em; 
+    line-height: 1.68em;
+
 }
 
 .donate-middle {
@@ -312,5 +313,10 @@ section .section-title {
 @media only screen and (max-width: 425px) {
     .container-fluid {
         padding: 13%;
+    }
+
+    .p-subtext {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
