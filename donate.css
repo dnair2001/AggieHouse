@@ -86,10 +86,11 @@ h4{
 
 .p-subtext {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 2%;
     padding-left: 20%;
     padding-right: 20%;
+    font-weight: 300;
 }
 
 .donate-middle {
