@@ -116,8 +116,8 @@ h3 {
 }
 
 .nav-link {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 300;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -225,59 +225,81 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #545454 !important;
-    padding: 60px 0;
+  background: #545454 !important;
+  padding: 60px 0;
 }
 #footer h5{
-  padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
+padding-left: 10px;
+ color:var(--dark);
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
 }
 #footer a {
-    color: #ffffff;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 #footer ul.social li{
-  padding: 3px 0;
+padding: 3px 0;
 }
 #footer ul.social li a i {
-    margin-right: 5px;
-  font-size:25px;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
+  font-weight: 200; 
+  margin-right: 5px;
+font-size:1.2em;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
 }
 #footer ul.social li:hover a i {
-  font-size:30px;
-  margin-top:-10px;
+font-size:30px;
+margin-top:-10px;
+}
+
+#footer img{
+  margin-left: 0.7em; 
+  width: 18%; 
+  height: auto; 
+}
+
+#footer img:hover{
+  opacity: 50%; 
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-  color:#ffffff;
+font-size: 0.9em; 
+color:var(--light);
 }
 #footer ul.social li a:hover{
-  color:#eeeeee;
+color:#eeeeee;
 }
 #footer ul.quick-links li{
-  padding: 3px 0;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
 }
 #footer ul.quick-links li:hover{
-  padding: 3px 0;
-  margin-left:5px;
-  font-weight:700;
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
 }
 #footer ul.quick-links li a i{
-  margin-right: 5px;
+margin-right: 5px;
 }
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+#footer h3 {
+  font-family: 'Merriweather';
+  font-size: 1em;
+  color: white;
+}
+
+#fb{
+  margin-left: 6.2em; 
 }
 
 @media (max-width:767px){
@@ -286,14 +308,12 @@ section .section-title {
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+    
 }
 
-/* .ptext{
-  text-align: center; 
-} */
-/* .p-our-story{
-  text-align: center; 
-} */
+#fb{
+  margin-left: 0; 
+}
 
 
 }
