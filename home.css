@@ -22,14 +22,12 @@ body{
 }
 
 .nav-link {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 300;
   font-family: 'Poppins', sans-serif;
 }
 
-/* header{
-    padding: 6%;
-} */
+
 
 h1,h3,h4,h5{
     font-family: 'Merriweather', serif;
@@ -53,8 +51,7 @@ h2{
     font-size: 18px; 
     color: var(--dark); 
     text-transform: uppercase;
-    margin-bottom: 0; 
-    
+    margin-bottom: 0;   
 
 }
 
@@ -72,7 +69,7 @@ header h2{
     text-align: center; 
     text-transform: none; 
     font-weight: 300; 
-    margin-top: 40px; 
+    margin-top: -230px; 
     padding-top: 0; 
 
 }
@@ -82,15 +79,18 @@ header h2{
     margin-top: 0; 
 }
 
-
-header img{
+ header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -160px; 
+    width: 60%; 
+    height: auto; 
+    margin-top: -460px; 
+
   
 
-}
+} 
+
 
 :root {
     --light: #EFF1F3;
@@ -535,8 +535,35 @@ section .section-title {
   font-size: 1.4rem;
   color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+    #header_img {
+        /* width: 80vw; */
+        margin: auto;
+        display: block;
+        margin-top: 0;
+        margin-top: -250px;
+    }
+
+
+    header h2{
+        margin-top: -100px; 
+    }
+}
  
 @media only screen and (max-width: 1132px) {
+    #header_img {
+        /* width: 80vw; */
+        margin: auto;
+        display: block;
+        margin-top: 0;
+        margin-top: -250px;
+    }
+
+
+    header h2{
+        margin-top: -100px; 
+    }
     #news_img {
         width: 70%;
     }
@@ -563,6 +590,18 @@ section .section-title {
     header img {
         width: 90%;
     }
+
+    header h2{
+        margin-top: -100px; 
+    }
+    #header_img {
+        /* width: 80vw; */
+        margin: auto;
+        display: block;
+        margin-top: 0;
+        margin-top: -250px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -571,6 +610,11 @@ section .section-title {
         margin: auto;
         display: block;
         margin-top: 0;
+        margin-top: -250px;
+    }
+
+    header h2{
+        margin-top: -100px; 
     }
 
     #clouds {
@@ -594,6 +638,8 @@ section .section-title {
   }
 
   @media only screen and (max-width: 532px) {
+
+
     header h2 {
         font-size: 15px;
     }
