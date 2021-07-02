@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .h3-header {
@@ -115,11 +115,13 @@ p{
 .li-style {
   padding: 2%;
   font-family: 'Poppins', sans-serif;
+
 }
 
 .last-li {
   padding-bottom: 10%;
   font-family: 'Poppins', sans-serif;
+  line-height: 1.68em; 
 }
 
 .button-reg {
@@ -220,16 +222,19 @@ p{
 .volunteer-section {
   background-color: #F5FAFF;
   padding: 4%;
+  padding-top: 6%; 
 }
 
 .leadership-section {
   background-color: #EFF1F3;
   padding: 4%;
+  padding-top: 6%; 
 }
 
 .collaborate-section {
   background-color: #F5FAFF;
   padding: 4%;
+  padding-top: 6%; 
   /* display: flex; */
 }
 
@@ -270,6 +275,8 @@ h5 {
   margin-left: 15%; 
   color: black;
   padding-bottom: 2%;
+  font-family: "Merriweather", 'serif'; 
+  font-size: 1.53em; 
 }
 
 .right-panel {
