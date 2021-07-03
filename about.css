@@ -20,6 +20,16 @@ h3 {
   color: white;
 }
 
+.our-story-subtext {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%; 
+  font-family: 'Poppins', sans-serif; 
+  line-height: 1.68em; 
+  color: #545454;
+}
+
 /*--------------------------------------------------------------
 # App Features
 --------------------------------------------------------------*/
@@ -299,17 +309,34 @@ section .section-title {
 }
 
 @media only screen and (max-width: 426px) {
-  .ptext {
-    padding-left: 7%;
-    padding-right: 7%;
+
+  .img-fluid-1 {
+    margin: auto;
+    display: block;
+    width: 50%;
     padding-bottom: 10%;
-    /* text-align: center; */
   }
 
-    .p-our-story {
+  .ul-list {
     padding-left: 10%;
     padding-right: 10%;
-    /* text-align: center; */
+  }
+
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .h2, h2 {
+    text-align: center;
+  }
+
+  .img-pic {
+    padding-top: 0;
+  }
+
+  .our-story-subtext {
+    text-align: left;
   }
 
     col-lg-6, col-md-6, col-sm-12 {
@@ -340,4 +367,12 @@ section .section-title {
   .links {
     padding-top: 15%;
   }
+}
+
+@media only screen and (max-width: 1123px) {
+  .img-pic {
+    padding-top: 30%;
+    width: 100%;
+  }
+
 }
