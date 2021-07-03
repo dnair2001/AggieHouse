@@ -175,6 +175,10 @@ margin-right: 5px;
     padding-bottom: 7%;
   }
 
+  .position {
+    padding-top: 0;
+  }
+
   figcaption {
     text-align: center;
   }

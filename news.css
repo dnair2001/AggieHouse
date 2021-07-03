@@ -56,10 +56,6 @@ body{
     padding-left: 13%;
 }
 
-#headline-one {
-    /* padding-top: 5%; */
-}
-
 .block-one {
     padding-bottom: 10%;
 }
@@ -284,6 +280,14 @@ margin-right: 5px;
 }
 
 @media only screen and (max-width: 1224px) {
+  .iframe-size {
+    width: 100%;
+  }
+
+  .ucd-phil {
+    padding-top: 5%;
+  }
+
   .img1 {
     width: 100%;
     padding-right: 15px;
@@ -298,7 +302,7 @@ margin-right: 5px;
   .news-h1 {
     padding-top: 5%;
     padding-bottom: 3%;
-    padding-left: 3%;
+    padding-left: 30px;
   }
 
   .img-right {
