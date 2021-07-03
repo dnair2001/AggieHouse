@@ -7,11 +7,16 @@
   --ad_accent_two: #F5FAFF; 
 
 }
+
+html{
+  scroll-behavior: smooth; 
+}
 .donate-main{
   padding: 9%;
   background-color: var(--light);
   font-family: 'Poppins', sans-serif; 
 }
+
 
 h3 {
   font-family: 'Montserrat';
