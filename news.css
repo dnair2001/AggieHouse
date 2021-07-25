@@ -15,6 +15,13 @@ h3 {
     color: white;
   }
 
+.h3-footer {
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  color: white;
+  font-weight: normal;
+}
+
 /* Navigation Bar */
 .navbar {
     /*padding: 0 0 4.5rem;*/
